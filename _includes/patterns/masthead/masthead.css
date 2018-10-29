@@ -3,6 +3,10 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  background-color: rgba(0, 50, 0, .5);
+
+  color: #fff;
 }
 
 .masthead-logo,
@@ -17,17 +21,18 @@
 }
 
 .masthead-link {
-  color: #000;
-  text-decoration: none
+  color: #fff;
+  text-decoration: none;
+  border-bottom: .1em solid transparent;
 }
 
 .masthead-current {
-  background-color: #e2e2e2;
+  border-color: #fff;
 }
 
 .masthead-contact-link {
-  color: #000;
-  /*text-decoration: none;*/
+  color: #fff;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 38em) {
@@ -49,5 +54,16 @@
     margin-left: auto;
     width: auto;
   }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+  }
+
 
 }

@@ -1,4 +1,5 @@
 .banner {
+  background-color: var(--color-primary);
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }

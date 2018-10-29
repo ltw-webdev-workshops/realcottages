@@ -7,5 +7,5 @@
 .btn-white:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #333;
+  color: var(--color-primary-dark);
 }

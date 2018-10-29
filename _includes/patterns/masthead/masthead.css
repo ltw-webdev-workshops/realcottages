@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: rgba(0, 50, 0, .5);
+  background-color: var(--color-primary-dark);
 
   color: #fff;
 }
@@ -13,6 +13,11 @@
 .masthead-nav,
 .masthead-contact {
   width: 100%;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
 }
 
 .masthead-nav-list {
@@ -63,6 +68,8 @@
     position: absolute;
     width: 100%;
     z-index: 1000;
+
+    background-color: rgba(47, 55, 7, .5);
   }
 
 

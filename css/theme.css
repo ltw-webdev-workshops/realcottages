@@ -1,5 +1,9 @@
 :root {
-  --color-brand: #ff5449;
+  --color-primary: #626703;
+  --color-primary-light: #9ea60e;
+  --color-primary-dark: #2f3707;
+  --color-secondary: #ff5449;
+
   --font-primary: "Crimson Text", Georgia, serif;
 }
 

@@ -1,0 +1,53 @@
+.masthead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.masthead-logo,
+.masthead-nav,
+.masthead-contact {
+  width: 100%;
+}
+
+.masthead-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.masthead-link {
+  color: #000;
+  text-decoration: none
+}
+
+.masthead-current {
+  background-color: #e2e2e2;
+}
+
+.masthead-contact-link {
+  color: #000;
+  /*text-decoration: none;*/
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    justify-content: space-between;
+  }
+
+  .masthead-logo {
+    width: auto;
+    margin-right: 3rem;
+  }
+
+  .masthead-nav {
+    width: auto;
+  }
+
+  .masthead-contact {
+    margin-left: auto;
+    width: auto;
+  }
+
+}

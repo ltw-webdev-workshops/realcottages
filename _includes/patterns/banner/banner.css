@@ -1,0 +1,25 @@
+.banner {
+
+}
+
+.banner-img {
+
+}
+
+.banner-content {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 30em;
+
+    transform: translate(-50%, -50%);
+  }
+
+}

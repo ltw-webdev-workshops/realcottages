@@ -1,0 +1,19 @@
+<header class="masthead bold gutter-1-2 pad-b-1-2 text-center" role="banner">
+  <div class="masthead-logo pad-t-1-2">
+    {% if page.url == '/' %}
+      <h1 class="logo tera push-0">RealCottages</h1>
+    {% else %}
+      <strong class="logo tera">RealCottages</strong>
+    {% endif %}
+  </div>
+  <nav class="masthead-nav pad-t-1-2">
+    <ul class="masthead-nav-list list-group push-0">
+      <li><a class="masthead-link gutter-1-2 pad-t-1-4 pad-b-1-4 {% if page.url == '/' %}masthead-current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+      <li><a class="masthead-link gutter-1-2 pad-t-1-4 pad-b-1-4 {% if page.url contains 'cottages' %}masthead-current{% endif %}" href="{{site.baseurl}}/cottages/">Cottages</a></li>
+      <li><a class="masthead-link gutter-1-2 pad-t-1-4 pad-b-1-4 {% if page.url contains 'about' %}masthead-current{% endif %}" href="{{site.baseurl}}/about/">About</a></li>
+    </ul>
+  </nav>
+  <div class="masthead-contact pad-t-1-2">
+    <a class="masthead-contact-link giga ib" href="tel:+16135551234">613 555 1234</a>
+  </div>
+</header>

@@ -5,4 +5,5 @@
 {% include_relative modules.css %}
 {% include_relative grid.css %}
 {% include_relative type.css %}
-{% include patterns/header/header.css %}
+{% include patterns/masthead/masthead.css %}
+{% include patterns/banner/banner.css %}

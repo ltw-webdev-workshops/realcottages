@@ -1,3 +1,8 @@
 :root {
   --color-brand: #ff5449;
+  --font-primary: "Crimson Text", Georgia, serif;
+}
+
+html {
+  font-family: var(--font-primary);
 }

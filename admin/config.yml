@@ -1,0 +1,17 @@
+backend:
+  name: "github"
+  repo: "acgd-webdev-workshops/realcottages"
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home page"
+        name: "home"
+        file: "_data/home.yml"
+        fields:
+          - label: "Banner heading"
+            name: "banner_heading"
+            widget: "string"

@@ -1,1 +1,2 @@
-banner_heading: Testing Things!
+banner:
+  header: "Things"

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<main class="flex-child-imgs push-2">
+  {% include patterns/slider/slider.html photos=page.photos %}
+
+  <div class="max-length gutter-1-2 pad-t">
+    <hgroup>
+      <h1 class="exa push-0">{{page.title}}</h1>
+      <h2 class="peta">£{{page.price}}</h2>
+    </hgroup>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Built In</th>
+          <th scope="col">Bedrooms</th>
+          <th scope="col">Bathrooms</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{page.built_in}}</td>
+          <td>{{page.beds}}</td>
+          <td>{{page.baths}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Description</h2>
+    {{content}}
+  </div>
+</main>

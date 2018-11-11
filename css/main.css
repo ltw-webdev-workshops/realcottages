@@ -1,10 +1,13 @@
 ---
 ---
 
-{% include_relative theme.css %}
 {% include_relative modules.css %}
 {% include_relative grid.css %}
 {% include_relative type.css %}
+{% include_relative theme.css %}
 {% include patterns/buttons/buttons.css %}
 {% include patterns/masthead/masthead.css %}
+{% include patterns/footer/footer.css %}
 {% include patterns/banner/banner.css %}
+{% include patterns/cards/cards.css %}
+{% include patterns/slider/slider.css %}

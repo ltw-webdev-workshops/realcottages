@@ -1,12 +1,41 @@
 :root {
   --color-primary: #626703;
   --color-primary-light: #9ea60e;
+  --color-primary-muted: #bec26d;
   --color-primary-dark: #2f3707;
-  --color-secondary: #ff5449;
+
+  --color-secondary: #372a1a;
+  --color-secondary-medium: #968156;
+  --color-secondary-light: #f0d6b6;
 
   --font-primary: "Crimson Text", Georgia, serif;
+
+  --border-radius: 4px;
 }
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+.color-primary-light {
+  color: var(--color-primary-light);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-primary-dark);
+}
+
+hr {
+  border-color: var(--color-primary-light);
+}
+
+.flex-child-imgs img {
+  display: block;
+  width: 100%;
 }

@@ -3,3 +3,37 @@ layout: default
 ---
 
 {% include patterns/banner/banner.html %}
+
+<main role="main">
+  <section class="gutter-1-2 pad-t-2 push-2">
+    <h2 class="text-center push-0 exa">Old English Cottages for Sale</h2>
+    <p class="text-center italic giga">Browse our most recent selection of cozy English cottages for sale.</p>
+
+    <div class="grid">
+      {% for cottage in site.cottages reversed limit:3 %}
+        <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
+          {% include patterns/cards/cottage.html data=cottage %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="text-center gutter-1-2 pad-t">
+      <a class="btn btn-ghost giga" href="{{site.baseurl}}/cottages/">See all cottages</a>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="gutter-1 pad-t-2 pad-b-2 max-length">
+    <h2 class="text-center push-0 exa">Follow along</h2>
+    <p class="text-center italic giga">Read up on the recent happenings related to our business and English cottages.</p>
+
+    {% for post in site.posts limit:2 %}
+      <article class="">
+        {% include patterns/cards/post.html data=post %}
+      </article>
+    {% endfor %}
+
+    <a class="btn btn-ghost" href="{{site.baseurl}}/blog/">Read more updates</a>
+  </section>
+</main>

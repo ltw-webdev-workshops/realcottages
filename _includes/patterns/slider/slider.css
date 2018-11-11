@@ -1,0 +1,16 @@
+.slider {
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+}
+
+.slider-item {
+  display: inline-block;
+  width: 90%;
+  scroll-snap-align: center;
+}
+
+.slider-item-caption {
+  color: #fff;
+  text-shadow: 0 2px 3px #000;
+}

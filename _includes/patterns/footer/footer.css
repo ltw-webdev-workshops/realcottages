@@ -1,0 +1,28 @@
+.footer {
+  background-color: var(--color-primary-dark);
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer-nav {
+
+}
+
+.footer-cottages {
+
+}
+
+.footer-social {
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .footer-social {
+    text-align: right
+  }
+
+}

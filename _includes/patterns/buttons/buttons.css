@@ -1,9 +1,20 @@
+.btn-ghost {
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.btn-ghost:hover,
+.btn-ghost:hover {
+  background-color: var(--color-primary-muted);
+}
+
 .btn-white {
   border-color: #fff;
   color: #fff;
   text-shadow: none;
 }
 
+.btn-white:hover,
 .btn-white:hover {
   background-color: #fff;
   border-color: #fff;

@@ -1,0 +1,10 @@
+<div class="slider">
+  {% for photo in include.photos %}
+    <figure class="slider-item relative push-0">
+      <div class="embed embed-3by2">
+        <img class="embed-item" src="{{photo.url}}" alt="">
+      </div>
+      <figcaption class="slider-item-caption absolute pin-cb island-1-2">{{photo.caption}}</figcaption>
+    </figure>
+  {% endfor %}
+</div>

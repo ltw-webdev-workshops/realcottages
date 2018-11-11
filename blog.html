@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<main class="gutter-1 pad-t-2 pad-b max-length" role="main">
+  <h1 class="text-center push-0 exa">Read our updates</h1>
+  <p class="text-center italic giga">Follow along with our recent happenings related to our business and English cottages.</p>
+
+  {% for post in site.posts %}
+    <article class="">
+      {% include patterns/cards/post.html data=post %}
+    </article>
+  {% endfor %}
+</main>

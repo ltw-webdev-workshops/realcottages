@@ -9,6 +9,12 @@
   color: #fff;
 }
 
+.masthead a:hover,
+.masthead a:focus {
+  color: #fff;
+  border-color: #fff;
+}
+
 .masthead-logo,
 .masthead-nav,
 .masthead-contact {
@@ -64,7 +70,7 @@
 
 @media only screen and (min-width: 60em) {
 
-  .masthead {
+  .masthead-above {
     position: absolute;
     width: 100%;
     z-index: 1000;

@@ -1,1 +1,6 @@
 permalinks: pretty
+
+collections:
+  cottages:
+    output: true
+    permalink: /:collection/:year/:month/:slug/

@@ -28,7 +28,14 @@ layout: default
       </tbody>
     </table>
 
+    <h2>Address</h2>
+    <address class="block push">
+      {{page.addr.street}}
+      <br>{{page.addr.locality}}, {{page.addr.region}}
+    </address>
     <h2>Description</h2>
     {{content}}
   </div>
 </main>
+
+{% include metadata/property-for-sale.html data=page %}

@@ -1,7 +1,12 @@
 ---
 layout: cottage
 title: "Bauernhaus"
-thumb: bauernhaus-thumb.jpg
+desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+thumb: /images/uploads/bauernhaus-thumb.jpg
+addr:
+  street: "82 Rocky Road"
+  locality: "Leamington Spa"
+  region: "Warwickshire"
 price: "910,000"
 built_in: 1687
 beds: 5

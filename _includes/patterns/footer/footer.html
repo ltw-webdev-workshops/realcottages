@@ -2,9 +2,9 @@
   <nav class="footer-nav unit [ xs-1 s-1 m-1-2 l-1-5 ] island-1-2">
     <h2 class="kilo push-0 color-primary-light">Company</h2>
     <ul class="list-group push-0">
-      <li><a href="{{site.baseurl}}/">Home</a></li>
-      <li><a href="{{site.baseurl}}/blog/">Blog</a></li>
-      <li><a href="{{site.baseurl}}/about/">About</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/about/">About</a></li>
     </ul>
   </nav>
   <div class="footer-cottages unit [ xs-1 s-1 m-1-2 l-1-5 ] island-1-2">
@@ -17,10 +17,13 @@
   </div>
   <div class="footer-social unit [ xs-1 s-1 m-1 l-3-5 ] island-1-2">
     <ul class="list-group-inline push-0">
-      <li><a href=""><i class="icon i-1"><svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#facebook"></use></svg></i></a></li>
-      <li><a href=""><i class="icon i-1"><svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#youtube"></use></svg></i></a></li>
-      <li><a href=""><i class="icon i-1"><svg><use xlink:href="{{site.baseurl}}/images/social-icons.svg#instagram"></use></svg></i></a></li>
+      <li><a href=""><i class="icon i-1"><svg><use xlink:href="/images/social-icons.svg#facebook"></use></svg></i></a></li>
+      <li><a href=""><i class="icon i-1"><svg><use xlink:href="/images/social-icons.svg#youtube"></use></svg></i></a></li>
+      <li><a href=""><i class="icon i-1"><svg><use xlink:href="/images/social-icons.svg#instagram"></use></svg></i></a></li>
     </ul>
   </div>
-  <small class="unit xs-1 island-1-2" role="contentinfo">© {{site.time | date:'%Y'}} RealCottages</small>
+  <div class="unit xs-1 island-1-2 ">
+    <small role="contentinfo">© {{site.time | date:'%Y'}} RealCottages</small>
+    <address>1234 Roundabout Way, Leamington Spa, Warwickshire, England</address>
+  </div>
 </footer>

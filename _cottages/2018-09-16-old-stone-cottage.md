@@ -1,7 +1,12 @@
 ---
 layout: cottage
 title: "Old Stone Cottage"
-thumb: old-stone-cottage-thumb.jpg
+desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+thumb: /images/uploads/old-stone-cottage-thumb.jpg
+addr:
+  street: "555 Old Stone Road"
+  locality: "Leamington Spa"
+  region: "Warwickshire"
 price: "700,500"
 built_in: 1599
 beds: 2

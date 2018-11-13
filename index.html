@@ -1,5 +1,6 @@
 ---
 layout: default
+desc: "Find the perfect old English Cottage to fulfill your lifelong dreams."
 ---
 
 {% include patterns/banner/banner.html %}
@@ -18,7 +19,7 @@ layout: default
     </div>
 
     <div class="text-center gutter-1-2 pad-t">
-      <a class="btn btn-ghost giga" href="{{site.baseurl}}/cottages/">See all cottages</a>
+      {% include patterns/buttons/button.html text="See all cottages" url="/cottages/" extraclasses="btn-ghost giga" %}
     </div>
   </section>
 
@@ -34,6 +35,6 @@ layout: default
       </article>
     {% endfor %}
 
-    <a class="btn btn-ghost" href="{{site.baseurl}}/blog/">Read more updates</a>
+    {% include patterns/buttons/button.html text="Read more updates" url="/blog/" extraclasses="btn-ghost" %}
   </section>
 </main>

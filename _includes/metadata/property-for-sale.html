@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "SaleEvent",
+    "about": {
+      "@type": "SingleFamilyResidence",
+      "@id": "#cottage-for-sale"
+    },
+    "organizer": {
+      "@type": "RealEstateAgent",
+      "@id": "#realcottages"
+    },
+    "startDate": "{{include.data.date}}",
+    "name": "{{include.data.title}}",
+    "description": "{{include.data.desc}}",
+    "image": "https://realcottages.co.uk/{{include.data.thumb}}",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{include.data.addr.street}}",
+        "addressLocality": "{{include.data.addr.locality}}",
+        "addressRegion": "{{include.data.addr.region}}",
+        "addressCountry": "England"
+      }
+    }
+  }
+</script>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "SingleFamilyResidence",
+    "@id": "#cottage-for-sale",
+    "numberOfRooms": "{{include.data.beds}}",
+    "occupancy": "{{include.data.beds | plus:2}}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{include.data.addr.street}}",
+      "addressLocality": "{{include.data.addr.locality}}",
+      "addressRegion": "{{include.data.addr.region}}",
+      "addressCountry": "England"
+    }
+  }
+</script>

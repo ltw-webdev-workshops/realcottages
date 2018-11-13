@@ -1,7 +1,12 @@
 ---
 layout: cottage
 title: "Old English House"
-thumb: old-english-house-thumb.jpg
+desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+thumb: /images/uploads/old-english-house-thumb.jpg
+addr:
+  street: "58 Windy Way"
+  locality: "Leamington Spa"
+  region: "Warwickshire"
 price: "820,000"
 built_in: 1839
 beds: 3

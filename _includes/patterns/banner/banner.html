@@ -1,8 +1,8 @@
 <div class="banner relative">
-  <div class="banner-img embed embed-24by10" style="background-image: url(/images/uploads/banner.jpg)"></div>
+  <div class="banner-img embed embed-24by10" style="background-image: url({{site.data.home.banner.image}})"></div>
   <div class="banner-content island">
-    <h2 class="push-1-2">New Life in an Old Cottage</h2>
-    <p class="giga italic push">The dream of living in an old, stone and timber, vine-covered cottage can be yours.</p>
-    {% include patterns/buttons/button.html text="See cottages for sale" url="/cottages/" extraclasses="btn-white btn-ghost mega bold" %}
+    <h2 class="push-1-2">{{site.data.home.banner.title}}</h2>
+    <p class="giga italic push">{{site.data.home.banner.text}}</p>
+    {% include patterns/buttons/button.html text=site.data.home.banner.button url="/cottages/" extraclasses="btn-white btn-ghost mega bold" %}
   </div>
 </div>

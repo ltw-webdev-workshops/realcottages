@@ -3,3 +3,8 @@ banner:
   text: "The dream of living in an old, stone and timber, vine-covered cottage can be yours."
   button: "See cottages for sale"
   image: "/images/uploads/banner.jpg"
+
+cottages:
+  title: "Old English Cottages for Sale"
+  text: "Browse our most recent selection of cozy English cottages for sale."
+  button: "See all cottages"

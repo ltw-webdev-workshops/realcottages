@@ -7,8 +7,8 @@ desc: "Find the perfect old English Cottage to fulfill your lifelong dreams."
 
 <main role="main">
   <section class="gutter-1-2 pad-t-2 push-2">
-    <h2 class="text-center push-0 exa">Old English Cottages for Sale</h2>
-    <p class="text-center italic giga">Browse our most recent selection of cozy English cottages for sale.</p>
+    <h2 class="text-center push-0 exa">{{site.data.home.cottages.title}}</h2>
+    <p class="text-center italic giga">{{site.data.home.cottages.text}}</p>
 
     <div class="grid">
       {% for cottage in site.cottages reversed limit:3 %}
@@ -19,7 +19,7 @@ desc: "Find the perfect old English Cottage to fulfill your lifelong dreams."
     </div>
 
     <div class="text-center gutter-1-2 pad-t">
-      {% include patterns/buttons/button.html text="See all cottages" url="/cottages/" extraclasses="btn-ghost giga" %}
+      {% include patterns/buttons/button.html text=site.data.home.cottages.button url="/cottages/" extraclasses="btn-ghost giga" %}
     </div>
   </section>
 

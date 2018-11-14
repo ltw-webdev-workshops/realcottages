@@ -10,10 +10,10 @@
       "@type": "RealEstateAgent",
       "@id": "#realcottages"
     },
-    "startDate": "{{include.data.date}}",
+    "startDate": "{{include.data.date | date_to_xmlschema}}",
     "name": "{{include.data.title}}",
     "description": "{{include.data.desc}}",
-    "image": "https://realcottages.co.uk/{{include.data.thumb}}",
+    "image": "https://realcottages.co.uk{{include.data.thumb}}",
     "location": {
       "@type": "Place",
       "address": {
@@ -21,7 +21,7 @@
         "streetAddress": "{{include.data.addr.street}}",
         "addressLocality": "{{include.data.addr.locality}}",
         "addressRegion": "{{include.data.addr.region}}",
-        "addressCountry": "England"
+        "addressCountry": "{{site.data.site.location.country}}"
       }
     }
   }
@@ -39,7 +39,7 @@
       "streetAddress": "{{include.data.addr.street}}",
       "addressLocality": "{{include.data.addr.locality}}",
       "addressRegion": "{{include.data.addr.region}}",
-      "addressCountry": "England"
+      "addressCountry": "{{site.data.site.location.country}}"
     }
   }
 </script>

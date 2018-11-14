@@ -5,13 +5,13 @@
     "@id": "#realcottages",
     "name": "RealCottages",
     "image": "https://realcottages.co.uk/images/uploads/me.jpg",
-    "telephone": "+16135551234",
+    "telephone": "{{site.data.site.tel}}",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "1234 Roundabout Way",
-      "addressLocality": "Leamington Spa",
-      "addressRegion": "Warwickshire",
-      "addressCountry": "England"
+      "streetAddress": "{{site.data.site.location.street_address}}",
+      "addressLocality": "{{site.data.site.location.locality}}",
+      "addressRegion": "{{site.data.site.location.region}}",
+      "addressCountry": "{{site.data.site.location.country}}"
     }
   }
 </script>

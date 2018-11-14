@@ -8,3 +8,8 @@ cottages:
   title: "Old English Cottages for Sale"
   text: "Browse our most recent selection of cozy English cottages for sale."
   button: "See all cottages"
+
+blog:
+  title: "Follow along"
+  text: "Read up on the recent happenings related to our business and English cottages."
+  button: "Read more updates"

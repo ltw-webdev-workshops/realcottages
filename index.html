@@ -26,8 +26,8 @@ desc: "Find the perfect old English Cottage to fulfill your lifelong dreams."
   <hr>
 
   <section class="gutter-1 pad-t-2 pad-b-2 max-length">
-    <h2 class="text-center push-0 exa">Follow along</h2>
-    <p class="text-center italic giga">Read up on the recent happenings related to our business and English cottages.</p>
+    <h2 class="text-center push-0 exa">{{site.data.home.blog.title}}</h2>
+    <p class="text-center italic giga">{{site.data.home.blog.text}}</p>
 
     {% for post in site.posts limit:2 %}
       <article class="">
@@ -35,6 +35,6 @@ desc: "Find the perfect old English Cottage to fulfill your lifelong dreams."
       </article>
     {% endfor %}
 
-    {% include patterns/buttons/button.html text="Read more updates" url="/blog/" extraclasses="btn-ghost" %}
+    {% include patterns/buttons/button.html text=site.data.home.blog.button url="/blog/" extraclasses="btn-ghost" %}
   </section>
 </main>
